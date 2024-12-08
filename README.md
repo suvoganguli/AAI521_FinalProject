@@ -32,13 +32,7 @@ c) Face Identification
 
 The **Data preprocessing and EDA** step consists of loading the images from the dataset. Corresponding labels are created based on the subfolder name, which designates the name of the person. The data is split into training and test sets for image classification.
 
-The EDA does the following:
-
-- Folder Summary
-- Image Size Analysis
-- Treemap for top class
-- Image Quality Assessment
-- Duplicate Analysis
+The EDA does the following - Folder Summary, Image Size Analysis, Treemap for top class, Image Quality Assessment, Duplicate Analysis
 
 The **Face Verification** code focuses on implementing a face verification system using **DeepFace embeddings** and **cosine similarity** to determine whether two facial images belong to the same person. The system evaluates its performance across randomly selected image pairs, adjusting thresholds for different sensitivity levels.
 
